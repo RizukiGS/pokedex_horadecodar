@@ -9,7 +9,7 @@ export default function Header() {
         <header>
             <nav className = {styles.header}>
                 <div className={styles.logo}>
-                    <Image src = "/images/pokeball.png" width="30" height="30"/>
+                    <Image src = "/images/pokeball.png" width="30" height="30" alt="pokeeball"/>
                     <h1>PokeNext</h1>
                 </div>
                 <ul className={styles.link_items}>
